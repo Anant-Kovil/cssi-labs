@@ -10,8 +10,10 @@ const findMessage = (messages) => {
     const passcodeAttempt = document.querySelector('#passcode').value;
     for(message in messages) {
         const messageData = messages[message];
+        //console.log(passcodeAttempt)
         if(messageData.passcode === passcodeAttempt) {
             renderMessageAsHtml(messageData.message)
+            console.log(messageData.message)
         }
     }
 }

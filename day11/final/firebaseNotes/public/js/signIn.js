@@ -1,3 +1,8 @@
+const signIn2 = () =>{
+    
+}
+
+
 const signIn = () => {
   var provider = new firebase.auth.GoogleAuthProvider();
   // console.log(provider)
